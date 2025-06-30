@@ -54,4 +54,6 @@
 
 Для тестов можете использовать мой архив с заменами https://disk.yandex.ru/d/uvaa0gEzJVfTxg
 
+Шаблон расписания звонков: https://disk.yandex.ru/i/gSZoaSH3XSVyKw
+
 Если есть вопросы по проекту, то можете обращаться: https://t.me/skripuch
