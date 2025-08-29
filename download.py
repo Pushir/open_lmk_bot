@@ -19,7 +19,7 @@ def download_replacements(rep):
         req = requests.get("https://lmk-lipetsk.ru/main_razdel/shedule/index.php", timeout=10, verify=False)
         soup = BS(req.text, 'html.parser')
         zam = soup.find('div', class_='page-tmpl-content')
-        urls = (zam.find_all('a', target='_blank'))
+        urls = (zam.find_all('a'))
         for url_1 in urls:
             if 'занятий' not in url_1.text:
                 pass
@@ -456,3 +456,4 @@ def download_schedule():
             pass
 
         time.sleep(3600)
+
